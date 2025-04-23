@@ -59,9 +59,7 @@ public class Iphone implements AparelhoTelefonico,NavegadorInternet,ReprodutorMu
         System.out.println("O Iphone está atendendo uma ligação.");
     }
 
-    @Override
-    public void iniciarCorreioVoz() {
-        System.out.println("A ligação foi para o correio de voz.");
-    }
+    
+
 
 }

@@ -4,5 +4,7 @@ public interface AparelhoTelefonico {
 
     void atender();
 
-    void iniciarCorreioVoz();
+    default void iniciarCorreioVoz() {
+        System.out.println("A ligação foi para o correio de voz.");
+    }
 }
